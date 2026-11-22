@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book Oficial: O Legendário Motor CHT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #f1f1f1;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 3px solid #ff5722;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            color: #ff5722;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #bbb;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            flex: 1;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        .card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .card p {
+            margin-bottom: 1.5rem;
+            color: #ccc;
+            font-size: 1.05rem;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-comprar {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(255, 87, 34, 0.4);
+        }
+
+        .btn-comprar:hover {
+            background-color: #e64a19;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #1a1a1a;
+            color: #777;
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .price {
+                font-size: 2rem;
+            }
+            .btn-comprar {
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>O Legendário Motor CHT</h1>
+        <p>História, mecânica interna, manutenção e o legado que marcou gerações.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Adquira o E-book Completo</h2>
+            <p>Descubra todos os segredos, fichas técnicas, dicas de preparação e manutenção do motor CHT num guia prático, detalhado e ilustrado em formato digital (PDF).</p>
+            
+            <div class="price">R$ 10,00</div>
+
+            <!-- Botão de redirecionamento direto para a Kiwify -->
+            <a href="https://pay.kiwify.com.br/ME48RHU" target="_blank" class="btn-comprar">Comprar Agora</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Guri da Parati. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
